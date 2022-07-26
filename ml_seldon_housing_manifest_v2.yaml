@@ -12,7 +12,7 @@ spec:
       implementation: SKLEARN_SERVER
       modelUri: azureblob:newcontainer/mydata
       storageInitializerImage: seldonio/rclone-storage-initializer:1.15.0-dev  # Specify custom image here
-      envSecretRefName: seldon-rclone-secret                         # Specify custom secret here
+      envSecretRefName: seldon-rclone-secret
       parameters:
         - name: method
           type: STRING
