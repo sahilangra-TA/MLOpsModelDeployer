@@ -10,7 +10,7 @@ spec:
     graph:
       name: regressor
       implementation: SKLEARN_SERVER
-      modelUri: azureblob:newcontainer/mydata
+      modelUri: azureblob:newcontainer/myotherdata
       storageInitializerImage: seldonio/rclone-storage-initializer:1.15.0-dev  # Specify custom image here
       envSecretRefName: seldon-rclone-secret
       parameters:
